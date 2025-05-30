@@ -1,0 +1,109 @@
+body{
+    font-family: Arial, sans-serif;
+    font-size: 1.1em;
+    background-color: rgb(156, 112, 199);
+    margin: 1em;
+    margin-top: 2.3em;
+    border-radius: 0.60em;
+}
+/* Le bouton style, sa taille,largeur hauteur  */
+.bouton-hamburger{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    width: 33px;
+    height: 15px;
+    border: none;
+    background: transparent;
+
+}
+/* Style des lignes du boutton */
+.barre{
+    width: 100%;
+    height: 3px;
+    background: azure;
+
+}
+.haut-page{
+    display: flex;
+    position :fixed;
+    top:0;
+    height: 20px;
+}
+.liste-menu{
+    display: flex;
+    list-style-type: none;
+    
+}
+.lien-menu{
+    text-decoration: none;
+    color: aliceblue;
+    text-align: center;
+    margin: 0px 10px 0px 10px;
+    padding: 0px;
+
+}
+
+div:hover{
+    box-shadow: 5px 10px 20px #0115157d;
+    border-radius: 0.45em;
+    text-shadow: 5px 10px 20px #b6d7d77d;  
+}
+header, .baspage{
+    font-size: 1.1em;
+    box-shadow: 5px 5px 40px #0000008d;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgba(55, 55, 27, 0.532);
+    color: rgb(201, 201, 82);
+    background: linear-gradient(to right, #211caf, #3d91ff);
+    border-radius: 0.45em;
+    
+}
+img{
+    width: 5em;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+    border-width: 0.25em;
+    border-style: solid;
+    border-color: rgba(13, 212, 252, 0.283);
+}
+h2{
+    color: #3d91ff;
+}
+h3{
+    color: rgb(213, 167, 111);
+}
+.baspage{
+    background: #d0eb67;
+    text-align: center;
+    color: rgb(192, 192, 66);
+    
+}
+
+div{
+    padding: 1em;
+    background-color: rgb(13, 133, 133);
+    border-radius: 0.45em;
+    width: 30em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.45em;
+    margin-bottom: 0.45em;
+    height: 300px;
+}
+.etude{
+    width: 400px;
+    margin: auto;
+    height:fit-content;
+
+}
+footer{
+    height: 2%;
+    width: 100%;
+    background-color: aqua;
+    text-align: center;
+}
+/* responsivité */
+@media screen {
+    
+}
